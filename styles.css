@@ -530,6 +530,14 @@ a {
   font-size: 0.92rem;
 }
 
+.person-profile-link {
+  margin: 0 0 8px;
+}
+
+.person-profile-link a:hover {
+  text-decoration: underline;
+}
+
 .person-profile-list {
   margin: 0;
   padding: 0;
