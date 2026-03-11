@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>연구실 소개 | CCTLab</title>
+    <title>연구 분야 | CCTLab</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -22,7 +22,7 @@
         </a>
         <ul>
           <li><a href="index.html"><span class="nav-ko">메인</span><span class="nav-en">Home</span></a></li>
-          <li><a href="research.html"><span class="nav-ko">연구 분야</span><span class="nav-en">Research</span></a></li>
+          <li><a href="research.html" class="active"><span class="nav-ko">연구 분야</span><span class="nav-en">Research</span></a></li>
           <li><a href="members.html"><span class="nav-ko">구성원</span><span class="nav-en">Members</span></a></li>
           <li><a href="publications.html"><span class="nav-ko">출판물</span><span class="nav-en">Publications</span></a></li>
           <li><a href="notice.html"><span class="nav-ko">공지사항</span><span class="nav-en">Notice</span></a></li>
@@ -31,8 +31,8 @@
       </nav>
     </header>
 
-    <main class="page-main container">
-      <section class="section">
+    <main class="page-main container research-page">
+      <section class="section research-section">
         <div class="section-head">
           <h2 class="section-title">
             연구실 개요
@@ -42,83 +42,110 @@
 
         <div class="detail-block">
           <div class="detail-row">
-            <div class="detail-label">연구 비전</div>
-            <div class="detail-value">청정순환기술연구실은 대기오염, 온실가스, 자원순환 문제를 데이터와 현장기술로 연결하여 해결하는 실용형 환경공학 연구를 수행합니다.</div>
+            <div class="detail-label">
+              <span class="bilingual-ko">연구 방향</span>
+              <span class="bilingual-en">Research Direction</span>
+            </div>
+            <div class="detail-value">
+              <span class="bilingual-ko">청정순환기술연구실은 대기오염, 온실가스, 자원순환 문제를 데이터 기반 환경기술로 해결하는 응용 환경공학 연구를 수행합니다.</span>
+              <span class="bilingual-en">CCTLab conducts applied environmental engineering research that addresses air pollution, greenhouse gases, and resource circulation through data-driven environmental technologies.</span>
+            </div>
           </div>
           <div class="detail-row">
-            <div class="detail-label">핵심 방향</div>
-            <div class="detail-value">초미세먼지와 대기오염원 해석, 온실가스 정량화와 감시, AI 기반 환경센서 및 예측기술, 폐기물·폐수 처리와 자원화 기술을 통합적으로 다룹니다.</div>
+            <div class="detail-label">
+              <span class="bilingual-ko">중점 기술</span>
+              <span class="bilingual-en">Core Technologies</span>
+            </div>
+            <div class="detail-value">
+              <span class="bilingual-ko">초미세먼지와 대기오염원 해석, 온실가스의 정량적 모니터링, AI 기반 환경센서 및 자동화 기술, 폐기물 처리와 자원회수 기술을 통합적으로 다룹니다.</span>
+              <span class="bilingual-en">The lab integrates source apportionment of fine particulate matter, quantitative greenhouse gas monitoring, AI-based environmental sensors and automation, and waste treatment with resource recovery technologies.</span>
+            </div>
           </div>
           <div class="detail-row">
-            <div class="detail-label">연구 접근</div>
-            <div class="detail-value">머신러닝, 수용모델, 공간통계, 환경센서, UAV 계측, 공정 모델링, 위해성 평가를 결합해 실제 현장과 정책에 적용 가능한 결과를 도출합니다.</div>
+            <div class="detail-label">
+              <span class="bilingual-ko">연구 접근</span>
+              <span class="bilingual-en">Research Approach</span>
+            </div>
+            <div class="detail-value">
+              <span class="bilingual-ko">머신러닝, 수용모델, 공간통계, 환경센서, UAV 계측, 공정 모델링을 결합해 실제 현장과 정책에 적용 가능한 결과를 도출합니다.</span>
+              <span class="bilingual-en">The lab combines machine learning, receptor modeling, spatial statistics, environmental sensors, UAV monitoring, and process modeling to generate outcomes applicable to field operations and policy.</span>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="section">
+      <section class="section research-section">
         <div class="section-head">
           <h2 class="section-title section-title-compact">
-            연구분야
+            연구 분야
             <span class="section-en">Research Areas</span>
           </h2>
         </div>
         <div class="line-grid">
           <article class="line-card">
-            <h3>대기오염 및 PM2.5 오염원 해석</h3>
-            <p>PM2.5 화학성분 예측, 오염원 기여도 산정, 공간 분포 분석, 건강영향 평가를 통해 도시와 산업지역의 대기질 문제를 정량적으로 해석합니다.</p>
+            <h3>
+              <span class="bilingual-ko">대기오염 및 PM2.5 소스 해석</span>
+              <span class="bilingual-en">Air Pollution and PM2.5 Source Analysis</span>
+            </h3>
+            <p>
+              <span class="bilingual-ko">PM2.5 화학성분 분석, 오염원 기여도 추정, 공간 분포 분석, 건강영향 평가를 통해 도시와 산업단지의 대기질 문제를 정량적으로 해석합니다.</span>
+              <span class="bilingual-en">The lab quantitatively interprets urban and industrial air quality issues through PM2.5 chemical composition analysis, source contribution estimation, spatial distribution analysis, and health impact assessment.</span>
+            </p>
           </article>
           <article class="line-card">
-            <h3>온실가스 모니터링과 탄소중립</h3>
-            <p>도심 및 점오염원을 대상으로 CO2·CH4 농도 예측, 현장 관측, 배출량 정량화, 우심지역 감시기술을 개발합니다.</p>
+            <h3>
+              <span class="bilingual-ko">온실가스 모니터링과 탄소중립</span>
+              <span class="bilingual-en">Greenhouse Gas Monitoring and Carbon Neutrality</span>
+            </h3>
+            <p>
+              <span class="bilingual-ko">도시와 배출원에서 CO2 및 CH4 농도를 측정하고, 현장 관측과 배출량 해석을 연결해 감시기술을 개발합니다.</span>
+              <span class="bilingual-en">The lab measures CO2 and CH4 concentrations in cities and emission sources and links field observations with emission analysis to develop monitoring technologies.</span>
+            </p>
           </article>
           <article class="line-card">
-            <h3>AI 기반 환경센서와 데이터 융합</h3>
-            <p>저가형 센서 보정, 결측치 대체, 시계열 예측, 자동화 플랫폼 구축을 통해 환경데이터의 신뢰성과 활용성을 높입니다.</p>
+            <h3>
+              <span class="bilingual-ko">AI 기반 환경센서와 데이터 통합</span>
+              <span class="bilingual-en">AI-based Environmental Sensors and Data Integration</span>
+            </h3>
+            <p>
+              <span class="bilingual-ko">저가형 센서 보정, 결측치 대체, 시계열 예측, 자동화 플랫폼 구축을 통해 환경 데이터의 신뢰성과 활용성을 높입니다.</span>
+              <span class="bilingual-en">The lab improves the reliability and usability of environmental data through low-cost sensor calibration, missing-value reconstruction, time-series prediction, and automation platform development.</span>
+            </p>
           </article>
           <article class="line-card">
-            <h3>폐기물·폐수 처리 및 자원순환</h3>
-            <p>반도체 공정 폐수 처리, 폐바이오매스 활용, 폐자원 회수, 혐기소화 공정 모델링을 기반으로 순환형 처리기술을 연구합니다.</p>
+            <h3>
+              <span class="bilingual-ko">폐기물 처리 및 자원순환</span>
+              <span class="bilingual-en">Waste Treatment and Resource Circulation</span>
+            </h3>
+            <p>
+              <span class="bilingual-ko">반도체 공정 폐수 처리, 바이오매스 활용, 유가금속 회수, 폐기물 고형화 공정 모델링을 기반으로 순환형 처리기술을 연구합니다.</span>
+              <span class="bilingual-en">The lab studies circular treatment technologies based on semiconductor wastewater treatment, biomass utilization, valuable metal recovery, and waste solidification process modeling.</span>
+            </p>
           </article>
           <article class="line-card">
-            <h3>유해물질 거동과 위해성 평가</h3>
-            <p>나노물질, 항생물질, 전환생성물의 환경 내 이동과 독성 및 위해성을 해석해 관리기술과 연결합니다.</p>
+            <h3>
+              <span class="bilingual-ko">유해물질 거동과 위해성 평가</span>
+              <span class="bilingual-en">Contaminant Fate and Risk Assessment</span>
+            </h3>
+            <p>
+              <span class="bilingual-ko">나노물질, 중금속, 환경오염물질의 거동과 독성 특성을 분석하고 관리기술과 연결합니다.</span>
+              <span class="bilingual-en">The lab analyzes the transport behavior and toxic characteristics of nanomaterials, heavy metals, and environmental contaminants and connects them to management technologies.</span>
+            </p>
           </article>
           <article class="line-card">
-            <h3>정책 연계형 현장 적용</h3>
-            <p>국가기관, 지자체, 산업체와 연계한 과제를 통해 도시 대기관리, 통합물관리, 산업단지 탄소중립에 직접 기여하는 연구를 수행합니다.</p>
+            <h3>
+              <span class="bilingual-ko">정책 연계와 현장 적용</span>
+              <span class="bilingual-en">Policy Linkage and Field Deployment</span>
+            </h3>
+            <p>
+              <span class="bilingual-ko">국가기관, 지자체, 산업체와 연계한 연구를 통해 도시 대기관리, 통합물관리, 산업단지 탄소중립에 직접 기여하는 연구를 수행합니다.</span>
+              <span class="bilingual-en">The lab works with national agencies, local governments, and industry to contribute directly to urban air management, integrated water management, and industrial carbon neutrality.</span>
+            </p>
           </article>
         </div>
       </section>
 
-      <section class="section">
-        <div class="section-head">
-          <h2 class="section-title section-title-compact">
-            논문 기반 대표 연구축
-            <span class="section-en">Themes from Publications</span>
-          </h2>
-        </div>
-        <div class="detail-block">
-          <div class="detail-row">
-            <div class="detail-label">PM2.5 분석</div>
-            <div class="detail-value">최근 논문들은 PM2.5 화학성분 예측, 결측치 보정, 오염원 기여도 분해, 공간 수용모델링에 집중되어 있으며, 머신러닝과 receptor model의 결합이 핵심 방법론입니다.</div>
-          </div>
-          <div class="detail-row">
-            <div class="detail-label">온실가스 관측</div>
-            <div class="detail-value">도시 대기 중 CO2·CH4 농도 예측, UAV 기반 배출 플룸 측정, 저가 센서 성능 평가 연구를 통해 고해상도 온실가스 모니터링 기술을 축적하고 있습니다.</div>
-          </div>
-          <div class="detail-row">
-            <div class="detail-label">공정 모델링</div>
-            <div class="detail-value">혐기소화, 축산폐기물, 정유슬러지, 반도체 공정 폐수 등 다양한 처리대상에 대해 실험과 모델링을 함께 적용하는 공정 고도화 연구를 수행합니다.</div>
-          </div>
-          <div class="detail-row">
-            <div class="detail-label">환경위해성</div>
-            <div class="detail-value">나노입자 차수층 투과, PM2.5 결합 유해금속의 건강위해성, 항생물질 농도 및 전환생성물 예측 등 오염물질 거동과 위해성 평가가 또 하나의 연구축입니다.</div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section">
+      <section class="section research-section">
         <div class="section-head">
           <h2 class="section-title section-title-compact">
             수행과제 개요
@@ -127,25 +154,49 @@
         </div>
         <div class="detail-block">
           <div class="detail-row">
-            <div class="detail-label">AI · 자동화</div>
-            <div class="detail-value">환경측정대행업 특화 AI 기반 전주기 자동화 플랫폼(E-LIMS), 센서 보정 알고리즘, 악취 센서 시스템 개발처럼 AI와 자동화를 환경계측에 접목한 과제를 수행하고 있습니다.</div>
+            <div class="detail-label">
+              <span class="bilingual-ko">AI 및 자동화</span>
+              <span class="bilingual-en">AI and Automation</span>
+            </div>
+            <div class="detail-value">
+              <span class="bilingual-ko">환경측정과 실험 운영의 효율화를 위해 AI 기반 분석, 센서 보정, 데이터 자동 처리, 실험실 정보관리 체계 구축을 아우르는 과제를 수행하고 있습니다.</span>
+              <span class="bilingual-en">The lab pursues projects covering AI-based analytics, sensor calibration, automated data processing, and laboratory information management systems to improve the efficiency of environmental measurement and experimental operations.</span>
+            </div>
           </div>
           <div class="detail-row">
-            <div class="detail-label">대기 · 기후</div>
-            <div class="detail-value">한·중 대기질 공동연구, 도심지역 온실가스 배출특성 현장 측정, 미세먼지 배출변화 요인 분석, 온실가스 발생원인 평가 모형 개발 등 국가 단위 대기·기후 과제를 지속적으로 수행하고 있습니다.</div>
+            <div class="detail-label">
+              <span class="bilingual-ko">대기 및 기후</span>
+              <span class="bilingual-en">Air and Climate</span>
+            </div>
+            <div class="detail-value">
+              <span class="bilingual-ko">도시 및 산업지역 대기질 진단, 온실가스 배출 특성 분석, 현장 계측, 오염원 기여도 해석, 예측 모델 개발 등 대기환경 전반을 다루는 연구를 지속하고 있습니다.</span>
+              <span class="bilingual-en">The lab continues research across the air environment spectrum, including urban and industrial air quality diagnosis, greenhouse gas emission analysis, field monitoring, source apportionment, and predictive model development.</span>
+            </div>
           </div>
           <div class="detail-row">
-            <div class="detail-label">순환 · 처리</div>
-            <div class="detail-value">반도체 폐자원 회수 및 재순환, TMAH 폐수 처리, 폐바이오매스 유래 자원화, 분해생성물 독성예측 과제는 자원순환과 오염저감 공정 기술 개발을 중심으로 구성됩니다.</div>
+            <div class="detail-label">
+              <span class="bilingual-ko">순환 및 처리</span>
+              <span class="bilingual-en">Circulation and Treatment</span>
+            </div>
+            <div class="detail-value">
+              <span class="bilingual-ko">폐수 처리, 부산물 활용, 자원 회수, 공정 최적화를 중심으로 자원순환성과 현장 적용성을 함께 높이는 기술 개발을 추진하고 있습니다.</span>
+              <span class="bilingual-en">The lab develops technologies that enhance both resource circularity and field applicability, focusing on wastewater treatment, by-product utilization, resource recovery, and process optimization.</span>
+            </div>
           </div>
           <div class="detail-row">
-            <div class="detail-label">정책 · 적용</div>
-            <div class="detail-value">통합물관리 정책 연구처럼 공공기관, 학회, 산업체와 협력하는 과제를 통해 연구성과를 제도와 현장에 연결하는 것을 중시합니다.</div>
+            <div class="detail-label">
+              <span class="bilingual-ko">정책 및 실증</span>
+              <span class="bilingual-en">Policy and Demonstration</span>
+            </div>
+            <div class="detail-value">
+              <span class="bilingual-ko">공공기관과 산업 현장에 연결되는 실증형 과제를 통해 연구성과를 제도와 운영 현장에 반영하는 것을 중시합니다.</span>
+              <span class="bilingual-en">The lab places emphasis on demonstration-oriented projects that connect public institutions and industrial sites, allowing research outcomes to be reflected in policy and operational practice.</span>
+            </div>
           </div>
         </div>
       </section>
 
-      <section class="section">
+      <section class="section research-section">
         <div class="section-head">
           <h2 class="section-title section-title-compact">
             주요 수행과제
@@ -155,78 +206,99 @@
         <div class="pub-list">
           <article class="pub-item">
             <div class="pub-year">2025-2026</div>
-            <div>
-              <div class="pub-title">환경측정대행업 특화 AI 기반 전주기 자동화 플랫폼(E-LIMS) 구축</div>
-              <div class="pub-meta">서울경제진흥원, 공동책임연구원, 총 연구비 200백만원</div>
+            <div class="pub-title">
+              <span class="bilingual-ko">환경측정대행업 특화 AI 기반 전주기 자동화 플랫폼(E-LIMS) 구축</span>
+              <span class="bilingual-en">Development of a specialized AI-based full-cycle automation platform (E-LIMS) for environmental measurement service providers</span>
             </div>
           </article>
           <article class="pub-item">
             <div class="pub-year">2024-2027</div>
-            <div>
-              <div class="pub-title">AI 기반 센서 보정 알고리즘과 무인항공기를 활용한 자가 측정 대상 대기오염물질 측정 플랫폼 개발</div>
-              <div class="pub-meta">과학기술정보통신부(한국연구재단), 참여연구원, 총 연구비 280,737,000원</div>
+            <div class="pub-title">
+              <span class="bilingual-ko">AI 기반 센서 보정 알고리즘과 무인항공기를 활용한 자가 측정 대상 대기오염물질 측정 플랫폼 개발</span>
+              <span class="bilingual-en">Development of a measurement platform for self-monitored air pollutants using AI-based sensor calibration algorithms and unmanned aerial vehicles</span>
             </div>
           </article>
           <article class="pub-item">
             <div class="pub-year">2025</div>
-            <div>
-              <div class="pub-title">머신러닝을 통한 온실가스 농도 예측 및 센서 기반 우심지역 집중감시 기법 개발</div>
-              <div class="pub-meta">국립환경과학원, 참여연구원, 총 연구비 97백만원</div>
+            <div class="pub-title">
+              <span class="bilingual-ko">머신러닝을 통한 온실가스 농도 예측 및 센서 기반 우심지역 집중감시 기법 개발</span>
+              <span class="bilingual-en">Development of machine learning-based greenhouse gas concentration prediction and sensor-based intensive monitoring methods for priority areas</span>
             </div>
           </article>
           <article class="pub-item">
             <div class="pub-year">2025-2026</div>
-            <div>
-              <div class="pub-title">기후위기 대응을 위한 통합물관리 정책 연구</div>
-              <div class="pub-meta">환경부·K-water·한국환경공단 연계, 참여연구원, 총 연구비 240백만원</div>
+            <div class="pub-title">
+              <span class="bilingual-ko">기후위기 대응을 위한 통합물관리 정책 연구</span>
+              <span class="bilingual-en">Integrated water management policy research for climate crisis response</span>
             </div>
           </article>
           <article class="pub-item">
             <div class="pub-year">2025</div>
-            <div>
-              <div class="pub-title">분해생성물의 독성예측 방법론 수립</div>
-              <div class="pub-meta">(재)포항산업과학연구원, 연구책임자, 총 연구비 54백만원</div>
+            <div class="pub-title">
+              <span class="bilingual-ko">통계기반 온실가스 발생원인 평가 모형 개발(III)</span>
+              <span class="bilingual-en">Development of a statistics-based evaluation model for greenhouse gas emission causes (III)</span>
+            </div>
+          </article>
+          <article class="pub-item">
+            <div class="pub-year">2025</div>
+            <div class="pub-title">
+              <span class="bilingual-ko">분해생성물의 독성예측 방법론 수립</span>
+              <span class="bilingual-en">Establishment of a methodology for predicting the toxicity of decomposition products</span>
             </div>
           </article>
           <article class="pub-item">
             <div class="pub-year">2024</div>
-            <div>
-              <div class="pub-title">반도체 폐자원 회수 및 재순환 기술 개발 사업</div>
-              <div class="pub-meta">충남연구원, 공동연구개발기관 연구책임자, 총 연구비 30백만원</div>
+            <div class="pub-title">
+              <span class="bilingual-ko">반도체 폐자원 회수 및 재순환 기술 개발 사업</span>
+              <span class="bilingual-en">Project for developing recovery and recirculation technologies for semiconductor waste resources</span>
             </div>
           </article>
           <article class="pub-item">
             <div class="pub-year">2024</div>
-            <div>
-              <div class="pub-title">자동 악취배수 모델링 및 악취 센서 시스템 개발</div>
-              <div class="pub-meta">삼성전자 종합기술원-순천향대학교 기술협력 과제, 연구책임자, 총 연구비 209백만원</div>
+            <div class="pub-title">
+              <span class="bilingual-ko">자동 악취배수 모델링 및 악취 센서 시스템 개발</span>
+              <span class="bilingual-en">Development of automated odor wastewater modeling and odor sensor systems</span>
             </div>
           </article>
           <article class="pub-item">
             <div class="pub-year">2024-2028</div>
-            <div>
-              <div class="pub-title">폐바이오매스 유래 지방산 고부가가치화를 통한 반도체 공정 TMAH 폐수 처리 기술 개발</div>
-              <div class="pub-meta">과학기술정보통신부(한국연구재단), 공동연구원, 총 연구비 966백만원</div>
+            <div class="pub-title">
+              <span class="bilingual-ko">폐바이오매스 유래 지방산 고부가가치화를 통한 반도체 공정 TMAH 폐수 처리 기술 개발: 기계학습이 결합된 효율 예측 및 공정 최적화 연구</span>
+              <span class="bilingual-en">Development of TMAH wastewater treatment technology for semiconductor processes through high-value utilization of waste biomass-derived fatty acids: efficiency prediction and process optimization with integrated machine learning</span>
             </div>
           </article>
           <article class="pub-item">
             <div class="pub-year">2024-2025</div>
-            <div>
-              <div class="pub-title">3단계 한·중 대기질 공동연구 및 도심지역 온실가스 배출특성 파악을 위한 현장 측정</div>
-              <div class="pub-meta">국립환경과학원, 참여연구원, 국제·현장 연계 대기질 연구</div>
+            <div class="pub-title">
+              <span class="bilingual-ko">3단계(‘23~’25) 한·중 대기질 공동연구(2)</span>
+              <span class="bilingual-en">Phase 3 ('23-'25) Korea-China Joint Research on Air Quality (2)</span>
             </div>
           </article>
           <article class="pub-item">
             <div class="pub-year">2024</div>
-            <div>
-              <div class="pub-title">중장기 미세먼지 배출변화 요인 분석 연구 및 통계기반 온실가스 발생원인 평가 모형 개발</div>
-              <div class="pub-meta">국가미세먼지정보센터·국립환경과학원, 참여연구원</div>
+            <div class="pub-title">
+              <span class="bilingual-ko">도심지역 온실가스 배출특성 파악을 위한 현장 측정</span>
+              <span class="bilingual-en">Field measurements for identifying greenhouse gas emission characteristics in urban areas</span>
+            </div>
+          </article>
+          <article class="pub-item">
+            <div class="pub-year">2024</div>
+            <div class="pub-title">
+              <span class="bilingual-ko">중장기 미세먼지 배출변화 요인 분석 연구</span>
+              <span class="bilingual-en">Research on factors influencing mid- to long-term changes in fine particulate emissions</span>
+            </div>
+          </article>
+          <article class="pub-item">
+            <div class="pub-year">2024</div>
+            <div class="pub-title">
+              <span class="bilingual-ko">통계기반 온실가스 발생원인 평가 모형 개발(Ⅱ)</span>
+              <span class="bilingual-en">Development of a statistics-based evaluation model for greenhouse gas emission causes (II)</span>
             </div>
           </article>
         </div>
       </section>
 
-      <section class="section">
+      <section class="section research-section">
         <div class="section-head">
           <h2 class="section-title section-title-compact">
             연구 키워드
@@ -235,23 +307,41 @@
         </div>
         <div class="detail-block">
           <div class="detail-row">
-            <div class="detail-label">Methods</div>
-            <div class="detail-value">Machine Learning, Receptor Modeling, Bayesian Spatial Modeling, Time-series Analysis, Sensor Calibration, UAV Monitoring</div>
+            <div class="detail-label">
+              <span class="bilingual-ko">방법론</span>
+              <span class="bilingual-en">Methods</span>
+            </div>
+            <div class="detail-value">
+              <span class="bilingual-ko">머신러닝, 수용모델링, 베이지안 공간모델링, 시계열 분석, 센서 보정, UAV 모니터링</span>
+              <span class="bilingual-en">Machine Learning, Receptor Modeling, Bayesian Spatial Modeling, Time-series Analysis, Sensor Calibration, UAV Monitoring</span>
+            </div>
           </div>
           <div class="detail-row">
-            <div class="detail-label">Topics</div>
-            <div class="detail-value">PM2.5, Air Pollution, Greenhouse Gases, Carbon Neutrality, Environmental Sensors, Waste Recycling, Wastewater Treatment, Toxicity Prediction</div>
+            <div class="detail-label">
+              <span class="bilingual-ko">주제</span>
+              <span class="bilingual-en">Topics</span>
+            </div>
+            <div class="detail-value">
+              <span class="bilingual-ko">PM2.5, 대기오염, 온실가스, 탄소중립, 환경센서, 폐기물 재활용, 폐수 처리, 독성 예측</span>
+              <span class="bilingual-en">PM2.5, Air Pollution, Greenhouse Gases, Carbon Neutrality, Environmental Sensors, Waste Recycling, Wastewater Treatment, Toxicity Prediction</span>
+            </div>
           </div>
           <div class="detail-row">
-            <div class="detail-label">Applications</div>
-            <div class="detail-value">Urban Air Quality, Industrial Emission Monitoring, Integrated Water Management, Smart Environmental Platform, Semiconductor Waste Resource Recovery</div>
+            <div class="detail-label">
+              <span class="bilingual-ko">적용 분야</span>
+              <span class="bilingual-en">Applications</span>
+            </div>
+            <div class="detail-value">
+              <span class="bilingual-ko">도시 대기질, 산업 배출 모니터링, 통합물관리, 스마트 환경 플랫폼, 반도체 폐자원 회수</span>
+              <span class="bilingual-en">Urban Air Quality, Industrial Emission Monitoring, Integrated Water Management, Smart Environmental Platform, Semiconductor Waste Resource Recovery</span>
+            </div>
           </div>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <div class="container">짤 2026 CCTLab, Sejong University</div>
+      <div class="container">© 2026 CCTLab, Sejong University</div>
     </footer>
   </body>
 </html>

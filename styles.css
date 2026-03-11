@@ -603,6 +603,85 @@ a {
   padding: 10px 0;
 }
 
+.research-page .research-section {
+  padding-top: 40px;
+}
+
+.research-page .section-head {
+  margin-bottom: 28px;
+}
+
+.research-page .detail-row,
+.research-page .pub-item {
+  padding: 5px 0;
+}
+
+.research-page .pub-item {
+  grid-template-columns: 150px minmax(0, 1fr);
+  gap: 20px;
+}
+
+.research-page .line-grid {
+  margin-top: 8px;
+}
+
+.research-page .line-card {
+  min-height: 0;
+  padding: 14px;
+}
+
+.research-page .line-card h3 {
+  margin-bottom: 6px;
+}
+
+.research-page .line-card p {
+  line-height: 1.55;
+}
+
+.research-page .bilingual-ko,
+.research-page .bilingual-en {
+  display: block;
+}
+
+.research-page .bilingual-en {
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 0.88em;
+  line-height: 1.45;
+  font-weight: 500;
+}
+
+.research-page .detail-label .bilingual-en {
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.research-page .detail-value .bilingual-en,
+.research-page .pub-title .bilingual-en,
+.research-page .line-card p .bilingual-en {
+  margin-top: 2px;
+}
+
+.contact-page .bilingual-ko,
+.contact-page .bilingual-en {
+  display: block;
+}
+
+.contact-page .bilingual-en {
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 0.88em;
+  line-height: 1.45;
+  font-weight: 500;
+}
+
+.contact-page .contact-label .bilingual-en {
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
 .pub-title {
   font-weight: 600;
   font-size: 0.94rem;
